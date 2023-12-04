@@ -1,7 +1,24 @@
+/* Browser Default styles reset */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.search img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.intro img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
 }
 
 /* 3 Main Section styling */
@@ -41,4 +58,56 @@
 }
 i {
   margin-right: 15px;
+}
+
+/* Header Styling */
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px 40px;
+  row-gap: 30px;
+  box-shadow: 0px 0px 53px -27px rgba(59, 134, 109, 0.83);
+}
+/* Top Row */
+.header > .search {
+  display: grid;
+  grid-template-columns: min-content minmax(300px, 3fr) 1fr min-content 1fr;
+}
+.header > * {
+  display: flex;
+  align-items: center;
+}
+.fa-bell {
+  justify-self: end;
+  padding-right: 5px;
+}
+.header span {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.header .search input {
+  border: none;
+  background-color: rgb(201, 201, 201);
+  border-radius: 15px;
+  height: 30px;
+}
+
+/* Second Row */
+
+.intro {
+  display: grid;
+  grid-template-columns: min-content 5fr 1fr 1fr 1fr;
+}
+.intro > div {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.intro > button {
+  border: none;
+  color: white;
+  background-color: rgb(59, 134, 109);
+  height: 35px;
+  width: 100px;
+  border-radius: 30px;
 }
