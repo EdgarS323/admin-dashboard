@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/9b002801c8.js" crossorigin="anonymous"></script>
-    <title>Admin Dashboard</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="sidebar">
-        <h2 class="dashboard"><a href="#"><i class="fa-solid fa-gauge"></i>Dashboard</a></h2>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-house"></i> Home</a></div>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-address-card"> </i> Profile</a></div>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-message"> </i> Messages</a></div>
-        <div class="sidebar-item"><a href=><i class="fa-solid fa-history"></i> History</a></div>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-tasks"></i> Tasks</a></div>
-        <div class="sidebar-item gapper"><a href="#"><i class="fa-solid fa-people-group"></i>Communities</a></div>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></div>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-question"></i> Support</a></div>
-        <div class="sidebar-item"><a href="#"><i class="fa-solid fa-shield-halved"></i>Privacy</a></div>
-      </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://kit.fontawesome.com/9b002801c8.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet" />
+		<title>Admin Dashboard</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				<h2 class="dashboard">
+					<a href="#"><i class="fa-solid fa-gauge"></i>Dashboard</a>
+				</h2>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-house"></i> Home</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-address-card"> </i> Profile</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-message"> </i> Messages</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-history"></i> History</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-tasks"></i> Tasks</a>
+				</div>
+				<div class="sidebar-item gapper">
+					<a href="#"><i class="fa-solid fa-people-group"></i>Communities</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-question"></i> Support</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="#"><i class="fa-solid fa-shield-halved"></i>Privacy</a>
+				</div>
+			</div>
 
-      <div class="header">
-        <div class="search">
-          <i class="fa-solid fa-search"></i>
-          <input type="text">
-          <i class="fa-regular fa-bell"></i>
-          <img src="Logo v1.0.png">
-          <span>Walter White</span>
-        </div>
-        <div class="intro">
-          <img src="Logo v1.0.png">
-          <div>Hi, There <br>Walter White (@walter)</div>
-          <button class="new">New</button>
-          <button class="upload">Upload</button>
-          <button class="share">Share</button>
-        </div>
-      </div>
-      <div class="main">Main</div>
-    </div>
-  </body>
+			<div class="header">
+				<div class="search">
+					<i class="fa-solid fa-search"></i>
+					<input type="text" />
+					<i class="fa-regular fa-bell"></i>
+					<img src="Logo v1.0.png" />
+					<span>Walter White</span>
+				</div>
+				<div class="intro">
+					<img src="Logo v1.0.png" />
+					<div>Hi, There <br />Walter White (@walter)</div>
+					<button class="new">New</button>
+					<button class="upload">Upload</button>
+					<button class="share">Share</button>
+				</div>
+			</div>
+
+			<div class="main">
+				<div class="projects">
+					Projects
+					<div class="project-grid"></div>
+				</div>
+				<div class="announcments">announcments</div>
+				<div class="trending">trending</div>
+			</div>
+		</div>
+	</body>
 </html>
